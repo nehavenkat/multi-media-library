@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace MultiMediaLibrary.Core
+namespace MultiMediaLibrary.Core.MediaLibrary
 {
-    class Books
+    class Books : MediaLibrary
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        #region Fields
+
+        public string Author;
+        public int NumberOfPages;
+
+
+        #endregion Fields
     }
 }

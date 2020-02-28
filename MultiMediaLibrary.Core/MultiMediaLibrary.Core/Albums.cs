@@ -2,9 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MultiMediaLibrary.Core
+namespace MultiMediaLibrary.Core.MediaLibrary
 {
-    class Albums
+    class Albums : MediaLibrary
+
     {
+    
+        #region Fields
+
+        public string Artist;
+        public float Duration;
+      
+
+        #endregion Fields
     }
 }

@@ -2,9 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MultiMediaLibrary.Core
+namespace MultiMediaLibrary.Core.MediaLibrary
 {
-    class VideoGames
+    class VideoGames : MediaLibrary
     {
+        #region Fields
+
+        public string Company;
+        public bool MultiPlayer;
+
+        #endregion Fields
     }
 }

@@ -10,23 +10,10 @@ namespace MultiMediaLibrary.Core.MediaLibrary
 
         public string Title;
         public int Year;
+        public bool Rented;
+
         #endregion Fields
     }
 
-    {
-    #region Methods
-       public void Rented()
-    {
-        if (false)
-   
-            Console.WriteLine(" Title available ");
-        
-        else
-        
-            Console.WriteLine(" Title not available ");
-        
-    }
+}
 
-    #endregion Methods
-}
-}
